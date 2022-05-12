@@ -7,6 +7,9 @@ function App() {
   return (
     <div className="App">
      <h1>Personal Site</h1>
+        <hr/>
+        Welcome | Books | About
+        <hr/>
         <PageWelcome/>
         <PageBooks/>
         <PageAbout/>

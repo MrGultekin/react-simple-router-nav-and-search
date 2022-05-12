@@ -1,9 +1,13 @@
 import './App.scss'
+import {PageWelcome} from "./pages/PageWelcome";
+import {PageBooks} from "./pages/PageBooks";
 
 function App() {
   return (
     <div className="App">
-      HEY
+     <h1>Personal Site</h1>
+        <PageWelcome/>
+        <PageBooks/>
     </div>
   )
 }
